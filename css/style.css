@@ -22,10 +22,11 @@ body {
 /*-----------------------------------------------------------------------------*/
 
 .container{
+	padding: 10px;
 }
 
 .thumbnail{
-	margin: 100px auto 100px auto;
+	margin: 20px auto 0px auto;
 	position: relative;
 	padding: 1rem;
 	border-radius: 5px;
@@ -37,13 +38,14 @@ body {
 
 
 .thumbnail > h1{
-	font-size: 1.2rem;
+	color: #1D9D73;
+	font-size: 1.5rem;
 }
 
 .thumbnail > h2{
 	font-style: italic;
 	margin-top: 1rem;
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 
 .tn-publicacion {
@@ -56,10 +58,10 @@ body {
 }
 
 .tn-publicacion > .tn-def > p{
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 .tn-publicacion > .tn-def > span{
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 	position: absolute;
 }
 
