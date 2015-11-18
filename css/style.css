@@ -86,11 +86,24 @@ body {
 	bottom: 0;
 }
 
-.tn-like > .likes{
-	font-size: 0.8rem;
+.tn-like > .likes,
+.tn-like > .views{
+	font-size: 1rem;
 }
+
 
 .tn-like > .hearth{
 	color: #F97E76;
-	font-size: 1.3rem;
+	font-size: 1.4rem;
+}
+
+.tn-like > .eye{
+	color: #646d78;
+	font-size: 1.6rem;
+}
+
+
+
+.space{
+	margin:0px 3px;
 }
