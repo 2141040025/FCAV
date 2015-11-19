@@ -21,13 +21,32 @@ body {
 
 /*-----------------------------------------------------------------------------*/
 .sb-site-container > .cp-header {
+	position: relative;
 	background-color: #03A678;
 	color: white;
 	line-height: 50px;
-	padding: 0px 10px;
+	padding: 0px 15px;
 }
 
+.cp-header > .btn-menu,
+.cp-header > .btn-search {
+	display: inline;
+}
 
+.cp-header > .btn-search {
+	position: absolute;
+	right: 15px;
+}
+
+.cp-header > h1 {
+	font-size: 1.7rem;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -mo-transform: translate(-50%, 0);    
+    transform: translate(-50%, 0);
+}
 /*-----------------------------------------------------------------------------*/
 
 .sb-site-container > .cp-container{
