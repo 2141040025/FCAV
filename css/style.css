@@ -17,8 +17,19 @@ body {
 	font-size: 1.6rem;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+
+	/* UX */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
 /*-----------------------------------------------------------------------------*/
 .sb-site-container > .cp-header {
 	position: relative;
@@ -28,12 +39,12 @@ body {
 	padding: 0px 15px;
 }
 
-.cp-header > .btn-menu,
-.cp-header > .btn-search {
+.cp-header > .btn-left,
+.cp-header > .btn-right {
 	display: inline;
 }
 
-.cp-header > .btn-search {
+.cp-header > .btn-right {
 	position: absolute;
 	right: 15px;
 }
@@ -63,7 +74,7 @@ body {
 	max-width: 550px;
 }
 
-.thumbnail > h1 { /* Titulo Principal */
+.thumbnail > a > h1 { /* Titulo Principal */
 	color: #2BC77D;
 	font-size: 1.5rem;
 }
