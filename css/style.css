@@ -30,7 +30,9 @@ a {
 	text-decoration: none;
 	color: white;
 }
+
 /*-----------------------------------------------------------------------------*/
+
 .sb-site-container > .cp-header {
 	position: relative;
 	background-color: #03A678;
@@ -66,24 +68,20 @@ a {
 
 /*-----------------------------------------------------------------------------*/
 
-.thumbnail {  /* Contenedor del Thumbnail */
+.thumbnail,
+.noticia {  /* Contenedor del Thumbnail y Noticia*/
 	margin: 0px auto 20px auto;
 	position: relative;
 	padding: 1rem;
 	background-color: #FFFFFF;
-	max-width: 550px;
+	max-width: 700px;
 }
+
+/*-----------------------------------------------------------------------------*/
 
 .thumbnail > a > h1 { /* Titulo Principal */
 	color: #2BC77D;
 	font-size: 1.5rem;
-}
-
-.thumbnail > a > h1:hover { /* Titulo Principal */
-	font-size: 1.6rem;
-	-webkit-transition: 0.5s all ease;
-	-o-transition: 0.5s all ease;
-	transition: 0.5s all ease;
 }
 
 .thumbnail > h2 { /* Descripcion */
@@ -145,3 +143,16 @@ a {
 }
 
 /*-----------------------------------------------------------------------------*/
+
+.noticia > img{
+	max-width: 100%;
+}
+
+.noticia > h1{
+	color: #2BC77D;	
+	font-size: 2.1rem;
+}
+
+.noticia > p{
+	font-size: 1.2rem;
+}
