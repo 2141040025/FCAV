@@ -79,6 +79,13 @@ a {
 	font-size: 1.5rem;
 }
 
+.thumbnail > a > h1:hover { /* Titulo Principal */
+	font-size: 1.6rem;
+	-webkit-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	transition: 0.5s all ease;
+}
+
 .thumbnail > h2 { /* Descripcion */
 	font-style: italic;
 	margin-top: 1rem;
