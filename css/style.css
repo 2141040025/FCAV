@@ -150,9 +150,33 @@ a {
 
 .noticia > h1{
 	color: #2BC77D;	
-	font-size: 2.1rem;
+	font-size: 2.5rem;
 }
 
 .noticia > p{
-	font-size: 1.2rem;
+	font-size: 1.6rem;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.sb-menu {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.sb-menu > li > a {
+	font-size: 3rem;
+	color: #575D69;
+	width: 100%;
+	display: inline-block;
+	padding: 2rem 5px;
+} 
+
+.sb-menu > li > a > p{
+	font-size: 1.4rem;
+} 
+
+.active{
+	background-color: #292C37 !important;
+	color: #03A678 !important;
 }
