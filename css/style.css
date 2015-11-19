@@ -20,90 +20,91 @@ body {
 }
 
 /*-----------------------------------------------------------------------------*/
+.sb-site-container > .cp-header {
+	background-color: #03A678;
+	color: white;
+	line-height: 50px;
+	padding: 0px 10px;
+}
 
-.container{
+
+/*-----------------------------------------------------------------------------*/
+
+.sb-site-container > .cp-container{
 	padding: 30px 10px;
 }
 
-.thumbnail{
+/*-----------------------------------------------------------------------------*/
+
+.thumbnail {  /* Contenedor del Thumbnail */
 	margin: 0px auto 20px auto;
 	position: relative;
 	padding: 1rem;
-	border-radius: 5px;
 	background-color: #FFFFFF;
-	min-width: 200px !important;
 	max-width: 550px;
-
 }
 
-
-.thumbnail > h1{
-	color: #1D9D73;
+.thumbnail > h1 { /* Titulo Principal */
+	color: #2BC77D;
 	font-size: 1.5rem;
 }
 
-.thumbnail > h2{
+.thumbnail > h2 { /* Descripcion */
 	font-style: italic;
 	margin-top: 1rem;
 	font-size: 1rem;
 }
 
-.tn-publicacion {
+.tn-publicacion { /* Contenedor de informacion extra */
 	position: relative;
 	margin-top: 1.6rem;
 }
-.tn-publicacion > img{
-	border-radius: 50%;
-	border: 2px solid #1D9D73;
-}
 
-.tn-publicacion > .tn-def > p{
-	font-size: 1rem;
-}
-.tn-publicacion > .tn-def > span{
-	font-size: 0.8rem;
-	position: absolute;
-}
-
-.tn-publicacion > span{
-}
-
-
-.tn-def{
+.tn-def{ /* Contenedor Foto y Nombre Autor*/
 	position: absolute;
 	margin: 0.3rem 0px 0px 0.9rem;
 }
 
+.tn-publicacion > img { /* Foto Autor */
+	border-radius: 50%;
+}
+
+.tn-publicacion > .tn-def > p { /* Nombre Autor */
+	font-size: 1rem;
+}
+.tn-publicacion > .tn-def > span { /* Fecha Publicacion */
+	font-size: 0.8rem;
+	position: absolute;
+}
 
 .tn-def,
-.tn-like{
+.tn-cool{
 	display: inline-block;
 }
 
-.tn-like{
+.tn-cool{
 	position: absolute;
 	right:0;
 	bottom: 0;
 }
 
-.tn-like > .likes,
-.tn-like > .views{
+.tn-cool > .likes,
+.tn-cool > .views{
 	font-size: 1rem;
 }
 
-
-.tn-like > .hearth{
+.tn-cool > .hearth{
 	color: #F97E76;
 	font-size: 1.4rem;
 }
 
-.tn-like > .eye{
+.tn-cool > .eye{
 	color: #646d78;
 	font-size: 1.6rem;
 }
 
-
-
 .space{
 	margin:0px 3px;
 }
+
+/*-----------------------------------------------------------------------------*/
