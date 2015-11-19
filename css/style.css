@@ -149,18 +149,43 @@ a {
 }
 
 .noticia > h1{
+	margin-bottom: 15px;
 	color: #2BC77D;	
 	font-size: 2.5rem;
 }
 
 .noticia > p{
+	margin-bottom: 50px;
 	font-size: 1.6rem;
 }
 
+/*Social*/
+
+.noticia > .social{
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.noticia > .social > .btn-f, .btn-t{
+	text-align: center;
+	font-size: 0.9rem;
+	padding: 0.5rem;
+}
+
+.noticia > .social > a > i{
+	margin-right: 7px;
+}
+
+.noticia > .social > .btn-f {
+	background-color: #2D5F9A;
+}
+
+.noticia > .social > .btn-t {
+	background-color: #00C3F2;
+}
 /*-----------------------------------------------------------------------------*/
 
-.sb-menu {
-	text-align: center;
+.sb-menu {	text-align: center;
 }
 
 .sb-menu > li > a {
