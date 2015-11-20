@@ -69,7 +69,8 @@ a {
 /*-----------------------------------------------------------------------------*/
 
 .thumbnail,
-.noticia {  /* Contenedor del Thumbnail y Noticia*/
+.noticia,
+.evento {  /* Contenedor del Thumbnail y Noticia*/
 	margin: 0px auto 20px auto;
 	position: relative;
 	padding: 1rem;
@@ -218,7 +219,31 @@ a {
 
 /*-----------------------------------------------------------------------------*/
 
-.hero{
-	width: 100%;
-	max-height: 400px;
+.evento > .fecha {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	background-color: #03A678;
+	width: 70px;
+	padding: 15px 0px;
+}
+
+.fecha > p {
+	font-style: italic;
+	font-size: 1rem;
+}
+
+.evento > .desc {
+	margin-left: 10px;
+	position: absolute;
+	display: inline-block;
+}
+
+.evento > .desc > h1{
+
+}
+
+.evento > .desc > p{
+	font-style: italic;
+	font-size: 1.2rem;
 }
