@@ -91,7 +91,7 @@ a {
 }
 
 .thumbnail > a > img {
-display: block; 
+	display: block; 
 	margin: auto;
 }
 
@@ -178,7 +178,9 @@ display: block;
 }
 
 .noticia > .social > a {
-	margin-right: 1.5rem;
+	display: block;
+	margin: 10px auto;
+	max-width: 300px;
 }
 .noticia > .social > a > i{
 	margin-right: 7px;
@@ -193,7 +195,8 @@ display: block;
 }
 /*-----------------------------------------------------------------------------*/
 
-.sb-menu {	text-align: center;
+.sb-menu {	
+	text-align: center;
 }
 
 .sb-menu > li > a {
